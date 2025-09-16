@@ -2,11 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export default function Contacto() {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert("Demo: mensaje enviado (aquí podrías integrar Formspree o backend).");
-    e.target.reset();
-  };
 
   return (
     <motion.section
@@ -84,22 +79,23 @@ export default function Contacto() {
           </div>
         </div>
 
-        <form className="contacto-form" onSubmit={handleSubmit}>
+        <form className="contacto-form" action="https://formspree.io/f/mnnbrnvz" method="POST">
           <label>
             Nombre <span>*</span>
           </label>
-          <input type="text" placeholder="Tu nombre" required />
+          <input type="text" name="nombre" placeholder="Tu nombre" required />
 
           <label>
             Correo electrónico <span>*</span>
           </label>
-          <input type="email" placeholder="tu.email@ejemplo.com" required />
+          <input type="email" name="correo" placeholder="tu.email@ejemplo.com" required />
 
           <label>
             Asunto <span>*</span>
           </label>
           <input
             type="text"
+            name="asunto"
             placeholder="¿Sobre qué te gustaría hablar?"
             required
           />
@@ -108,6 +104,7 @@ export default function Contacto() {
             Mensaje <span>*</span>
           </label>
           <textarea
+            name="mensaje"
             placeholder="Cuéntame sobre tu proyecto o lo que te gustaría discutir..."
             required
           ></textarea>
