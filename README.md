@@ -13,7 +13,6 @@ Incluye un diseño moderno, adaptable y funcional, con **modo oscuro**, **animac
 - Vite
 - JavaScript (ES6+)
 - CSS3 / Flexbox
-- TailwindCSS *(opcional o futuro)*
 - Font Awesome (iconos)
 
 ### ⚙️ Herramientas y deploy
