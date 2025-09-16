@@ -1,59 +1,97 @@
-# 🚀 Portfolio de Brian Battauz
+# 🌐 Portfolio - Brian Nicolas Battauz
 
-Este es mi portfolio personal creado con **React + Vite**, adaptado para ser **responsivo** y con
-**dark mode**.
+Este es mi portfolio web personal, desarrollado con **React + Vite**, para mostrar mis proyectos, habilidades y experiencia como desarrollador Full Stack Junior.
 
-## 📂 Estructura
+Incluye un diseño moderno, adaptable y funcional, con **modo oscuro**, **animaciones**, y una **sección de contacto interactiva**.
 
-    src/
-     ├─ components/
-     │   ├─ Header.jsx
-     │   ├─ Perfil.jsx
-     │   ├─ Proyectos.jsx
-     │   ├─ SobreMi.jsx
-     │   ├─ Contacto.jsx
-     │   └─ Footer.jsx
-     ├─ App.jsx
-     ├─ main.jsx
-     └─ styles.css
-    public/
-     └─ assets/ (imágenes, CV, favicon)
+---
 
-------------------------------------------------------------------------
+## 🚀 Tecnologías Utilizadas
 
-## ✅ Checklist de mejoras / Roadmap
+### 🖥️ Frontend
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3 / Flexbox
+- TailwindCSS *(opcional o futuro)*
+- Font Awesome (iconos)
 
--   [x] **Optimizar proyectos**: mover la data de proyectos a
-    `src/data/projects.js` y mapear dinámicamente.
--   [x] **Mejorar formulario de contacto**: integrar con Formspree,
-    EmailJS o backend propio (FastAPI).
--   [x] **SEO & Metadatos**: agregar `react-helmet` o etiquetas `<meta>`
-    personalizadas.
--   [x] **Animaciones**: incorporar Framer Motion para transiciones más
-    fluidas.
--   [ ] **Internacionalización**: permitir traducción EN/ES.
--   [ ] **Tests básicos**: con Vitest/React Testing Library para
-    asegurar estabilidad.
--   [x] **Deploy**: configurar deploy automático en GitHub Pages, Vercel
-    o Netlify.
--   [ ] **Refactorizar estilos**: migrar a CSS Modules o Tailwind para
-    escalabilidad.
--   [ ] **Accesibilidad**: mejorar etiquetas ARIA, contraste y soporte
-    de teclado.
--   [ ] **Lazy loading** de imágenes de proyectos para optimizar
-    rendimiento.
+### ⚙️ Herramientas y deploy
+- Git & GitHub
+- Vercel (deploy)
+- Figma (para el diseño de algunos proyectos)
 
-------------------------------------------------------------------------
+---
 
-## 🌙 Dark Mode
+## ✨ Características
 
-La preferencia se guarda en `localStorage` y se aplica automáticamente
-en la próxima visita.
+- Diseño responsive adaptable a móviles, tablets y escritorio.
+- Modo oscuro activable y persistente con `localStorage`.
+- Animaciones suaves con **Framer Motion**.
+- Scroll suave a secciones del sitio.
+- Menú móvil desplegable.
+- Formulario de contacto funcional (actualmente demo, se puede integrar con Formspree o backend).
+- Secciones:
+  - Inicio con presentación personal.
+  - Proyectos destacados con imágenes, descripciones y enlaces.
+  - Habilidades técnicas agrupadas por categoría.
+  - Experiencia laboral como desarrollador freelance.
+  - Formulario de contacto con enlaces a redes.
 
-------------------------------------------------------------------------
+---
 
-## ✨ Autor
+## 📂 Estructura del Proyecto
 
-**Brian Nicolas Battauz**
-- [GitHub](https://github.com/Brian13b)
-- [LinkedIn](https://www.linkedin.com/in/brian-battauz/)
+```bash
+📦 portfolio-react
+ ┣ 📂 public/
+ ┃ ┗ 📂 assets/         
+ ┣ 📂 src/
+ ┃ ┣ 📂 components/      
+ ┃ ┃ ┣─ Header.jsx
+ ┃ ┃ ┣─ Perfil.jsx
+ ┃ ┃ ┣─ Proyectos.jsx
+ ┃ ┃ ┣─ SobreMi.jsx
+ ┃ ┃ ┣─ Contacto.jsx
+ ┃ ┃ ┗─ Footer.jsx
+ ┃ ┣ 📂 data/
+ ┃ ┃ ┗─ projects.js      
+ ┃ ┣─ App.jsx
+ ┃ ┣─ main.jsx
+ ┃ ┗─ styles.css
+```
+
+---
+
+## ✅ Roadmap / Mejoras Futuras
+
+- [ ] Optimizar la carga de imágenes con lazy loading.
+- [ ] Soporte multilenguaje (ES/EN).
+- [ ] Accesibilidad: etiquetas ARIA, contraste, navegación con teclado.
+- [ ] Migrar estilos a TailwindCSS o CSS Modules.
+- [ ] Tests básicos con Vitest o Testing Library.
+
+---
+
+## 🖼️ Vista Previa
+
+Puedes visitar el portfolio online aquí:  
+🔗 [https://tu-deploy.vercel.app/](https://tu-deploy.vercel.app/)
+
+---
+
+## 📬 Contacto
+
+Si deseas trabajar conmigo o tienes alguna propuesta:
+
+- ✉️ **Email**: [brian.nbattauz@gmail.com](mailto:brian.nbattauz@gmail.com)
+- 💼 **LinkedIn**: [Brian Battauz](https://www.linkedin.com/in/brian-battauz-75691a217/)
+- 💻 **GitHub**: [@Brian13b](https://github.com/Brian13b)
+- 📱 **WhatsApp**: [Enviar mensaje](https://wa.me/3434676232?text=Hola%20quiero%20más%20información)
+
+---
+
+## 👨🏻‍💻 Autor
+
+**Brian Nicolas Battauz**  
+Desarrollador Full Stack Junior
